@@ -19,8 +19,9 @@
 </head>
 
 <body>
-	<!-- Canvas del fondo -->
-	<canvas id="bg" width="1920" height="1080"></canvas>
+        <a href="{% url 'admin:login' %}" class="login-button">Iniciar sesión</a>
+        <!-- Canvas del fondo -->
+        <canvas id="bg" width="1920" height="1080"></canvas>
 	
 	<!-- Puntuacion -->
   <p id="puntuacion">Puntuación: <span id="puntos">{{ puntuacion }}</span></p>
